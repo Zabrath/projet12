@@ -1,6 +1,5 @@
 import React from "react";
 import "./Skills.scss";
-import Footer from "../../components/footer/Footer";
 
 function Skills() {
   return (
