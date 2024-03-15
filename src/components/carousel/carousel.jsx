@@ -25,9 +25,9 @@ const Carousel = ({ images, links }) => {
   return (
     <section>
       <div className="carousel">
-        <button className="arrow" onClick={prevImage}>
+        <button class="arrow" onClick={prevImage}>
           <svg
-            className="svgIcon"
+            class="svgIcon"
             height="2em"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512">
@@ -41,9 +41,9 @@ const Carousel = ({ images, links }) => {
             
           />
         </div>
-        <button className="arrow" onClick={nextImage}>
+        <button class="arrow" onClick={nextImage}>
           <svg
-            className="svgIcon"
+            class="svgIcon"
             height="2em"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512">
@@ -52,38 +52,38 @@ const Carousel = ({ images, links }) => {
         </button>
       </div>
       <div className="carousel__add">
-        <button className="carousel__linkBtn" onClick={openLink}>
+        <button class="carousel__linkBtn" onClick={openLink}>
           <svg
-            className="svgIcon"
+            class="svgIcon"
             viewBox="0 0 384 512"
             height="1em"
             xmlns="http://www.w3.org/2000/svg">
             <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
           </svg>
-          <span className="icon2"></span>
-          <span className="tooltip">Link</span>
+          <span class="icon2"></span>
+          <span class="tooltip">Link</span>
         </button>
-        <button className="carousel__linkBtn" onClick={openLink}>
+        <button class="carousel__linkBtn" onClick={openLink}>
           <svg
-            className="svgIcon"
+            class="svgIcon"
             viewBox="0 0 384 512"
             height="1em"
             xmlns="http://www.w3.org/2000/svg">
             <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
           </svg>
-          <span className="icon2"></span>
-          <span className="tooltip">Github</span>
+          <span class="icon2"></span>
+          <span class="tooltip">Github</span>
         </button>
-        <button className="carousel__linkBtn" onClick={openLink}>
+        <button class="carousel__linkBtn" onClick={openLink}>
           <svg
-            className="svgIcon"
+            class="svgIcon"
             viewBox="0 0 384 512"
             height="1em"
             xmlns="http://www.w3.org/2000/svg">
             <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path>
           </svg>
-          <span className="icon2"></span>
-          <span className="tooltip">Infos</span>
+          <span class="icon2"></span>
+          <span class="tooltip">Infos</span>
         </button>
       </div>
     </section>

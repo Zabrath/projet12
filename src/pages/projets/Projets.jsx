@@ -2,6 +2,7 @@ import React from "react";
 import "./Projets.scss";
 import Carousel from "../../components/carousel/carousel";
 import { coverCarousel } from "../../data";
+import Footer from "../../components/footer/Footer";
 
 function Projets() {
   const images = coverCarousel.map((project) => project.cover);
