@@ -1,0 +1,21 @@
+.pageProjets {
+  height: 840px;
+  background: linear-gradient(to top, #44008b, #000761);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  }
+
+.pageProjets__text {
+  margin-top: 100px; /* Espace entre le texte et le haut de la page */
+  text-align: center; /* Centrage du texte */
+}
+
+.pageProjets__carousel {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}

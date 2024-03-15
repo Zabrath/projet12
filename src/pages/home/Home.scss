@@ -1,0 +1,21 @@
+.testHome {
+  // display: flex;
+  position: relative;
+  height: 840px;
+  background: linear-gradient(to top, #44008b, #000761);
+  // justify-content: space-around;
+}
+
+.textHome {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 45px;
+}
+
+.testHome img {
+  width: 50px; /* Définissez la largeur souhaitée */
+  height: auto; /* Assurez-vous que la hauteur s'ajuste automatiquement pour conserver le rapport hauteur/largeur */
+}
