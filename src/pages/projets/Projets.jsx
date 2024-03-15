@@ -21,7 +21,6 @@ function Projets() {
         <Carousel images={images} links={links} />
         </div>
       </section>
-      <Footer />
     </main>
   );
 }

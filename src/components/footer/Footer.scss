@@ -1,9 +1,14 @@
 .footer {
   height: 80px;
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color:  #44008b;
+  background-color:  transparent;
 
   &__nav {
     display: flex;

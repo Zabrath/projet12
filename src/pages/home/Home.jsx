@@ -23,7 +23,7 @@ function Home() {
         <span className="textHome">Laura MALGHEM <br /><img src={Logo} alt="" /> Développeuse WEB </span>
         
       </div>
-      <Footer />
+
     </main>
   );
 }

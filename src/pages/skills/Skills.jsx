@@ -12,7 +12,6 @@ function Skills() {
           assurer des développements efficaces et de haute qualité.
         </p>
       </section>
-      <Footer />
     </main>
   );
 }

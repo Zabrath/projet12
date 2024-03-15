@@ -15,11 +15,10 @@ export const coverCarousel = [
     },
     {
         id: "2",
-        projetName: "Test",
+        projetName: "Test (Html,Css)",
         projetNumber: 9,
         cover: projet9,
         link: "https://zabrath.github.io/Projet-9/",
-        langage: ["Html", "Css"],
         description: "Description : Booki, site vitrine d'hotel.",
         production: "Realisations : Intégration de maquettes Figma en HTML et CSS.",
       },

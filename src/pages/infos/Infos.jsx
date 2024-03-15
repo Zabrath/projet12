@@ -50,7 +50,6 @@ function Infos() {
           </p>
         </div>
       </section>
-      <Footer />
     </main>
   );
 }
