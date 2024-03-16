@@ -9,6 +9,7 @@
   padding: 10px; /* Espace à l'intérieur de la bordure */
   object-fit: cover;
   width: 100%;
+  aspect-ratio: 1800/900;
 }
 
 .test {
@@ -87,22 +88,17 @@
 }
 
 .svgIcon {
+  width: 25px;
+  height: 25px;
   fill: rgb(214, 178, 255);
-}
-
-.icon2 {
-  width: 18px;
-  height: 5px;
-  border-bottom: 2px solid rgb(182, 143, 255);
-  border-left: 2px solid rgb(182, 143, 255);
-  border-right: 2px solid rgb(182, 143, 255);
 }
 
 .tooltip {
   position: absolute;
-  left: 50px;
+  // left: 50px;
+  top: 65px;
   opacity: 0;
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(27, 27, 27);
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
@@ -112,19 +108,6 @@
   transition-duration: 0.2s;
   pointer-events: none;
   letter-spacing: 0.5px;
-}
-
-.tooltip::before {
-  position: absolute;
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-color: rgb(12, 12, 12);
-  background-size: 1000%;
-  background-position: center;
-  transform: rotate(45deg);
-  left: -5%;
-  transition-duration: 0.3s;
 }
 
 .carousel__linkBtn:hover .tooltip {

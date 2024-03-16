@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./Home.scss";
-import Footer from "../../components/footer/Footer";
 import Logo from "../../assets/test/LogoBlanc400px2.png";
 
 function Home() {
