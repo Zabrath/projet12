@@ -17,10 +17,10 @@ function Home() {
 
   return (
     <main id="home">
-      <div className="testHome" id="particles-js">
+      <div className="pageHome" id="particles-js">
       <span></span>
-        <span className="textHome">Laura MALGHEM <br /><img src={Logo} alt="" /> Développeuse WEB </span>
-        
+        <div className="pageHome__text"> <img src={Logo} alt="" />    Laura MALGHEM Développeuse WEB </div>
+            
       </div>
 
     </main>

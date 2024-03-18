@@ -1,5 +1,19 @@
-.testSkills {
-    margin-top: -16px;
-    height: 100vh;
-    background-color: rgba(94, 44, 117, 0.589);
+.pageSkills {
+  height: 100vh;
+  background: linear-gradient(to top, #44008b, #000761);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  &__titre {
+    display: flex;
+    justify-content: center;
   }
+  &__logosContainer {
+    display: flex;
+  }
+  &__logos {
+  }
+  &__logos img {
+    height: 150px;
+  }
+}
