@@ -17,19 +17,34 @@
   width: 50%;
   opacity: 0;
   transition: opacity 1s ease-in-out;
-
   &.animate {
     opacity: 1;
     transition: opacity 1s ease-in-out;
+  }  
+  @media (max-width: 1200px) {
+    width: 90%;
   }
+
 }
 
 .pageInfos__text p {
   font-size: 23px;
   line-height: 2;
+  @media (max-width: 1200px) {
+    font-size: 20px;
+  }
+  @media (max-width: 550px) {
+    font-size: 18px; 
+  }
 }
 
 .pageInfos__text h1 {
   font-size: 45px;
+  @media (max-width: 1200px) {
+    font-size: 35px; 
+  }
+  @media (max-width: 550px) {
+    font-size: 21px; 
+  }
 }
 

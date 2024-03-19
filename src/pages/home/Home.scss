@@ -17,7 +17,31 @@
   font-size: 55px;
   max-width: 650px;
 }
-
 .pageHome img {
   height: 150px;
+}
+
+
+@media (max-width: 450px) {
+  .pageHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    // height: 100vh;
+    background: linear-gradient(to top, #44008b, #000761);
+  }
+  .pageHome__text {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    top: 50%;
+    left: 50%;
+    font-size: 35px;
+  }
+  .pageHome img {
+    height: 150px;
+  }
 }

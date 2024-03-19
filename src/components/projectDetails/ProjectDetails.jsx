@@ -4,7 +4,7 @@ import "./ProjectDetails.scss";
 const ProjectDetails = ({ project }) => {
   return (
     <div className="project-details">
-      <h2>{project.projetName}</h2>
+      <h1>{project.projetName}</h1>
       <p>{project.description}</p>
       <p>{project.production}</p>
     </div>

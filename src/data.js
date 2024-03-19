@@ -18,12 +18,12 @@ export const coverCarousel = [
     },
     {
         id: "2",
-        projetName: "Nina carducci",
+        projetName: "Nina Carducci",
         projetNumber: 9,
         github :"https://github.com/Zabrath/Projet-9",
         cover: projet9,
         link: "https://zabrath.github.io/Projet-9/",
-        description: "Optimisez le référencement d'un site de photographe.",
+        description: "Optimiser le référencement d'un site de photographe.",
         production: "Utilisation d'outils tels que Lighthouse et Wave, pour optimiser et référencer au mieux.",
       },
       {
@@ -32,8 +32,8 @@ export const coverCarousel = [
         projetNumber: 8,
         github :"https://github.com/Zabrath/Projet-8-kasa",
         cover: projet8,
-        description: "Créez une application web de location immobilière avec React.",
-        production: "Développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
+        description: "Créez une application de location immobilière avec React.",
+        production: "Développer l’ensemble de l’application en suivant les maquettes Figma (responsives !)",
       },
       {
         id: "4",

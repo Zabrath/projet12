@@ -60,7 +60,7 @@ function Form() {
           className="form-field"
         />
       </div>
-      <button type="submit" className="test">Submit</button>
+      <button type="submit">Submit</button>
     </form>
   );
 }
