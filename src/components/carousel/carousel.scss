@@ -1,27 +1,18 @@
 .carousel__row {
   display: flex;
+  gap: 20px;
   @media (max-width: 550px) {
     flex-direction: column;
+    align-items: center;
+    gap: 1px;
   }
 }
-
-.carousel__container {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  
-
-}
-
 .carousel {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
-  
+  gap: 15px;  
 }
-
 .carousel__imgContainer img {
   border: 2px solid rgb(214, 178, 255);
   border-radius: 15px;
@@ -30,7 +21,6 @@
   width: 100%;
   aspect-ratio: 1800/900;
 }
-
 .carousel__imgContainer {
   display: flex;
   width: 75%;
@@ -39,22 +29,22 @@
   justify-content: center;
   align-items: center;
 }
-
 .carousel__add {
   display: flex;
   justify-content: center;
   gap: 15px;
   margin-top: 10px;
 }
-
 .carousel__text {
   color: white;
   max-width: 30%;
   @media (max-width: 550px) {
-  max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  max-width: 80%;
   }
 }
-
 .arrow {
   width: 50px;
   height: 50px;

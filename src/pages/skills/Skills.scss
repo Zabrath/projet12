@@ -8,6 +8,9 @@
   &__titre {
     display: flex;
     justify-content: center;
+    @media (max-width: 550px) {
+      font-size: 17px;
+    }
   }
   &__logosContainer {
     display: flex;
@@ -16,6 +19,9 @@
   }
   &__logos img {
     height: 150px;
+    @media (max-width: 550px) {
+      height: 100px;
+    }
   }
 }
 

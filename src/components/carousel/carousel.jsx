@@ -33,7 +33,7 @@ const Carousel = () => {
     <section className="carousel__row">
       <div className="carousel__container">
         <div className="carousel">
-          <button className="arrow" onClick={prevImage}>
+          <button className="arrow" aria-label="left-arrow" onClick={prevImage}>
             <svg
               className="svgIcon"
               height="2em"
@@ -48,7 +48,10 @@ const Carousel = () => {
               alt={`Cover ${currentImageIndex + 1}`}
             />
           </div>
-          <button className="arrow" onClick={nextImage}>
+          <button
+            className="arrow"
+            aria-label="right-arrow"
+            onClick={nextImage}>
             <svg
               className="svgIcon"
               height="2em"
@@ -60,7 +63,9 @@ const Carousel = () => {
         </div>
         <div className="carousel__add">
           {coverCarousel[currentImageIndex].link && (
-            <button className="carousel__linkBtn" onClick={() => openLink("link")}>
+            <button
+              className="carousel__linkBtn"
+              onClick={() => openLink("link")}>
               <svg
                 className="svgIcon"
                 viewBox="0 0 384 512"
