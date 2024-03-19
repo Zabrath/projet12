@@ -42,7 +42,7 @@ function Infos() {
             Je suis une développeuse web passionnée par la création d'expériences
             en ligne innovantes et fonctionnelles. Ma rigueur et mon souci du
             détail se reflètent dans chaque projet que j'entreprends.
-            Bien que je sois encore en cours de mes études, j'ai acquis une
+            Bien que je sois en attente de mon diplôme, j'ai acquis une
             expérience pratique grâce à des projets académiques et des stages. Mon
             engagement envers l'apprentissage continu me permet de rester à jour
             avec les dernières tendances et technologies du domaine.

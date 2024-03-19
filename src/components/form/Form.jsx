@@ -28,7 +28,7 @@ function Form() {
 
   return (
     <form className="contact-form" onSubmit={handleSubmit}>
-      {/* <div className="form-group">
+      <div className="form-group">
         <label htmlFor="contact">Contact:</label>
         <input
           type="text"
@@ -38,7 +38,7 @@ function Form() {
           required
           className="form-field"
         />
-      </div> */}
+      </div>
       <div className="form-group">
         <label htmlFor="email">Email:</label>
         <input

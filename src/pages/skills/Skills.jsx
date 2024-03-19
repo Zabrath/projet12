@@ -30,7 +30,7 @@ function Skills() {
           </span>
         </div>
         <div>
-        <h3 className="pageSkills__titre">Contactez moi pour plus d'informations !</h3>
+        <h2 className="pageSkills__titre">Contactez moi pour plus d'informations !</h2>
           <Form />
         </div>
       </section>
