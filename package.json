@@ -16,7 +16,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "homepage": "https://zabrath.github.io/projet12",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
