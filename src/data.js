@@ -24,7 +24,7 @@ export const coverCarousel = [
         cover: projet9,
         link: "https://zabrath.github.io/Projet-9/",
         description: "Optimisez le référencement d'un site de photographe.",
-        production: "Utilisation d'outils tels que Lighthouse et Wave.",
+        production: "Utilisation d'outils tels que Lighthouse et Wave, pour optimiser et référencer au mieux.",
       },
       {
         id: "3",

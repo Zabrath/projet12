@@ -48,6 +48,7 @@ function Infos() {
             avec les dernières tendances et technologies du domaine.
           </p>
         </div>
+        
       </section>
     </main>
   );

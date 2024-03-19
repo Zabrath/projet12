@@ -29,8 +29,8 @@ function Skills() {
             <img src={JsLogo} alt="" />
           </span>
         </div>
-        <div>
-        <h2 className="pageSkills__titre">Contactez moi pour plus d'informations !</h2>
+        <div className="pageSkills__formContainer">
+        <h1 className="pageSkills__titre">Contactez moi pour plus d'informations !</h1>
           <Form />
         </div>
       </section>

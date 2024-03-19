@@ -1,4 +1,5 @@
 .footer {
+
   height: 80px;
   z-index: 10;
   position: fixed;
@@ -17,8 +18,9 @@
 
   a {
     font-size: 25px;
+    font-weight: bold;
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(214, 178, 255);
     transition: color 0.3s;
     padding: 26px 20px;
     border: 2px  #ffffff;
@@ -27,9 +29,8 @@
   }
 
   a:hover {
-    // color: rgba(94, 44, 117, 0.589);
-    // border-color: rgba(94, 44, 117, 0.589);
-    background-color: #2e2e2e;
+    background-color: rgb(27, 27, 27);
+    color: #ffffff;
   }
 }
   
