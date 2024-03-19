@@ -1,17 +1,19 @@
 .pageSkills {
+  padding: 25px;
   height: 100vh;
   background: linear-gradient(to top, #44008b, #000761);
   color: white;
   display: flex;
   flex-direction: column;
+  gap: 15px;
   &__titre {
     display: flex;
     justify-content: center;
   }
   &__logosContainer {
     display: flex;
-  }
-  &__logos {
+    justify-content: space-evenly;
+    margin-bottom: 15px;
   }
   &__logos img {
     height: 150px;

@@ -1,6 +1,7 @@
 import projet4 from "./assets/Projets/Projet4.png";
 import projet9 from "./assets/Projets/Projet9.png";
 import projet8 from "./assets/Projets/Projet8.png";
+import projet3 from "./assets/Projets/Projet3.png";
 
 
 export const coverCarousel = [
@@ -11,7 +12,7 @@ export const coverCarousel = [
       github :"https://github.com/Zabrath/Projet-4",
       cover: projet4,
       link: "https://zabrath.github.io/Projet-4/",
-      description: "Site vitrine de restaurants.",
+      description: "Développement d'un site qui répertorie les menus de restaurants gastronomiques.",
       production: "Animations d'un site, CSS et HTML depuis une maquette figma.",
 
     },
@@ -31,6 +32,16 @@ export const coverCarousel = [
         projetNumber: 8,
         github :"https://github.com/Zabrath/Projet-8-kasa",
         cover: projet8,
+        description: "Créez une application web de location immobilière avec React.",
+        production: "Développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
+      },
+      {
+        id: "4",
+        projetName: "Booki",
+        projetNumber: 3,
+        github :"https://github.com/Zabrath/Projet-3",
+        link: "https://zabrath.github.io/Projet-3/",
+        cover: projet3,
         description: "Créez une application web de location immobilière avec React.",
         production: "Développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !)",
       },
