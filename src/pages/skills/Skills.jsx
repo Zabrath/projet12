@@ -5,7 +5,6 @@ import JsLogo from "../../assets/Skills/skillsJavaScript289x400px.png";
 import SassLogo from "../../assets/Skills/skillsSass289x400px.png";
 import ReactLogo from "../../assets/Skills/skillsReact289x400px.png";
 import AdobeLogo from "../../assets/Skills/skillsAdobe289x400px.png";
-import Form from "../../components/form/Form";
 
 function Skills() {
   return (
@@ -30,8 +29,7 @@ function Skills() {
           </span>
         </div>
         <div className="pageSkills__formContainer">
-        <h1 className="pageSkills__titre">Contactez moi pour plus d'informations !</h1>
-          <Form />
+        <a href="" className="pageSkills__contact">Contactez moi !</a>
         </div>
       </section>
     </main>
