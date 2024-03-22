@@ -29,7 +29,7 @@ function Skills() {
           </span>
         </div>
         <div className="pageSkills__formContainer">
-        <a className="pageSkills__contact">Contactez moi !</a>
+        <button className="pageSkills__contact">Contactez moi !</button>
         </div>
       </section>
     </main>
