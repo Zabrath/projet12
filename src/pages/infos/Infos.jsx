@@ -37,7 +37,7 @@ function Infos() {
     <main>
       <section className="pageInfos" id="infos">
         <div className={`pageInfos__text ${isVisible ? 'animate' : ''}`} ref={textRef}>
-          <h1>Bonjour et bienvenue</h1>
+          <h2>Bonjour et bienvenue</h2>
           <p>
             Je suis une développeuse web passionnée par la création d'expériences
             en ligne innovantes et fonctionnelles. Ma rigueur et mon souci du

@@ -7,9 +7,9 @@ function Projets() {
     <main>
       <section className="pageProjets" id="projets">
         <div className="pageProjets__text" >
-        <h1>
+        <h2>
           J'ai travaillé sur divers projets au sein de la formation OpenClassroom.
-        </h1>
+        </h2>
         </div>
         <div className="pageProjets__carousel">
         <Carousel />

@@ -2,8 +2,6 @@
   display: flex;
   position: relative;
   height: 100vh;
-  background: linear-gradient(to top, #44008b, #000761);
-
 }
 
 .pageHome__text {
@@ -15,11 +13,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(255, 255, 255);
-  font-size: 55px;
+  h1 {
+    font-size: 55px;
+  }
+
   max-width: 650px;
   @media (max-width: 550px) {
     gap: 25px;
-    font-size: 30px;
+    h1{
+      font-size: 30px;
+    }
+    
     flex-direction: column;
   }
 }

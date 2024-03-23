@@ -19,7 +19,7 @@ function Home() {
     <main id="home">
       <div className="pageHome" id="particles-js">
       <span></span>
-        <div className="pageHome__text"> <img src={Logo} alt="" />    Laura MALGHEM Développeuse WEB </div>
+        <div className="pageHome__text"> <img src={Logo} alt="" /> <h1>Laura MALGHEM Développeuse WEB</h1> </div>
             
       </div>
 
